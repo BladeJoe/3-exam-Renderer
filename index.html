@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" style="width:100% ;">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon&Movie</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+
+<body id="main__body" class="body bg-warning">
+ 
+    <div class="container">
+        <div class="btn-group w-75 d-flex mx-auto py-5" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-pokemon btn-danger">Pokemons</button>
+            <button type="button" class="btn btn-movie btn-warning">Movies</button>
+            <button type="button" class="btn btn-both btn-success">Both</button>
+            <button type="button" class="btn btn-clear btn-info">Clear</button>
+        </div>
+        <div class="d-flex justify-content-center flex-md-row flex-column align-items-center w-100">
+
+            <img src="./images/pokemonlogo.png" alt="" class="pokemonlogo  mb-5  w-50">
+            <img src="./images/movielogo.png" alt="" width="75%" class="movielogo  mb-5  w-50">
+        </div>
+
+        <ul class="list d-flex w-100 row-cols-5 gap-5 justify-content-center m-0 p-0 border-warning text-center"
+            style="flex-flow: row wrap;">
+            <li class="p-5" style="width: 250px !important;">
+                <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+                    alt="" width="200">
+                <h3>Pikachu</h3>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/movies.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
